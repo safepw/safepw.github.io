@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/franklin-clinton-gta.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero {
+    top: 50%;
+    left: 48%;
+    position: absolute;
+    transform: translate(-50%, -52%);
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    letter-spacing: 15px;
+    font-family: 'Cinzel', serif;
+    font-family: 'Orbitron', sans-serif;
+}
+
+hr {
+    width: 50%;
+    margin: 30px auto;
+    border: 1, 5px solid #fff;
+    font-family: 'Cinzel', serif;
+    font-family: 'Orbitron', sans-serif;
+}
+
+p{
+    font-size: 20px;
+    margin-top: 30px;
+    font-family: 'Cinzel', serif;
+}
+.launch{
+    font-family: 'Orbitron', sans-serif;
+}
