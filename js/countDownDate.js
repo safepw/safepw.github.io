@@ -17,7 +17,7 @@ var x = setInterval(function() {
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     launch.innerHTML = days + 'd ' + hours + 'h ' + minutes + 'm ' + seconds + 's';
-    launch.innerHTML = 'Create a SAFE Passwort days in' + days + 'd ' + hours + 'h ' + minutes + 'm ' + seconds + 's';
+    launch.innerHTML = 'Create a SAFE Passwort in' + days + 'd ' + hours + 'h ' + minutes + 'm ';
 
     if(distance < 0){
         clearInterval(x)
